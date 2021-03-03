@@ -1,0 +1,24 @@
+# ssh keys
+mykey*
+
+*.swp
+*.bak
+
+terraform.log
+
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# terragrunt files
+terragrunt.hcl
+backend.tf
+
+# Crash log files
+crash.log
+
+# backend configuration
+backend.tf
