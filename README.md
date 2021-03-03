@@ -1,12 +1,12 @@
-# ELB Sandwich using Terraform
+# Centalized ELB Sandwich using Terraform
 
 ## What is this repository for?
 
 This is an example Terraform project which deploys a web application using AWS infrastructure that is:
 
-- Isolated in a VPC
+- Isolated in an app VPC
 - Load balanced
-- Protected by Vyos routers acting as firewalls
+- Protected by Vyos routers acting as firewalls in a dedicated firewall VPC
 - Accessible by SSH via a bastion host
 
 ### Dependencies
